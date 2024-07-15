@@ -38,33 +38,7 @@ To use the CliffNotes AI app, follow these steps:
 To run the application, use the following command:
 
 
-streamlit run app.py
-
-
-### Application Interface
-
-- **Title and Header:**
-   
-    st.title('CliffNotes AI')
-
-    html_temp = """ 
-        <div style ="background-color:yellow;padding:13px"> 
-        <h1 style ="color:black;text-align:center;">Text Summarization GEN-AI Application </h1> 
-        </div> 
-    """
-    st.markdown(html_temp, unsafe_allow_html=True)
-    
-
-- **Sidebar and Sessions:**
-  
-    with st.sidebar:
-        with open("style.css") as css:
-            css = css.read()
-        st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
-        st.markdown('<h1 class="custom-header">CliffNotes AI</h1>', unsafe_allow_html=True)
-        st.header('' , divider='rainbow')
-        st.header("Sessions")
-        ...
+streamlit run app.py    
     
 
 ### Summarizing Text
