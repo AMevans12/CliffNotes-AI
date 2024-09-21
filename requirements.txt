@@ -3,4 +3,4 @@ pdfplumber
 docx2txt
 transformers 
 uuid
-pyperclip 
+pyperclip
